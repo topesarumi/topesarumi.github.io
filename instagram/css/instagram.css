@@ -1,0 +1,413 @@
+body{
+	background-color: #f8fafa
+
+}
+nav{
+	background-color: #ffffff;
+
+}
+nav li{
+	list-style: none;
+	display: inline;
+}
+#homeicon{
+	width: 50px;
+	height: 50px;
+   position: static;
+}
+#instalogo{
+	width: 100px;
+	height: 50px;
+	padding-left: 500px;
+	position: static;
+}
+#profile{
+	width:50px;
+	height: 50px;
+	border-radius: 50px;
+	float: right;
+	position: static;
+}
+#aside{
+	background-color: #ffffff;
+	width: 20%;
+	float: left;
+	margin-left: 50px;
+	margin-top: 50px;
+	padding: 20px;
+	position: static;
+
+}
+#propic{
+	width: 80px;	
+
+	border-radius: 40px;
+	margin-top: -50px;
+	margin-left: 80px
+}
+#level1{
+	width: 70%;
+	float: right;
+	padding: 10px 5px;
+	position: static;
+
+}
+#pictures{
+	width:150px;
+	height: 150px;
+	border: thick solid white;
+	padding: 10px;
+	position: static;
+
+}
+img { cursor: pointer; cursor: hand; }
+button{
+	background-color: #33ff33;
+	color: #ffffff;
+	width: 120px;
+	height: 40px;
+	border-radius: 25px;
+	border-style: none;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	position: relative;
+}
+button:hover{
+	background-color: blue;
+
+}
+/*button:after {
+  content:'unfollow'; 
+  visibility: visible;
+  display: block;
+  position: absolute;
+  background-color: red;
+  padding: 5px;
+  top: 2px;
+}*/
+
+
+.followers{
+	border: 1px solid grey;
+	width: 49%;
+	height: 50px;
+	margin-bottom: -52px;
+	text-align: center;
+	
+}
+.following{
+	border: 1px solid grey;
+	width: 49%;
+	float: right;
+	height: 50px;
+	text-align: center;
+
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.girl{
+	border: 1px solid grey;
+	width: 100%;
+	height: 50px;
+	margin-top: 40px;
+	text-align: center;
+}
+.pic{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+p{
+	float:right;
+	margin-top: -10px;
+}
+.bottom{
+	width: 30%;
+	
+	margin: 5px;
+	padding-top: 10px;
+}
+.bottom2{
+	width: 60%;
+	float: right;
+	margin-top: -75px;
+	padding: 5px;
+}
+.grid img{
+	height: 30px;
+	width: 30px;
+	float: right;
+	display: inline;
+	margin: 10px;
+	padding-right: 120px;
+}
+.message img{
+	height: 30px;
+	width: 30px;
+	float: right;
+	margin: 10px;
+	padding-right: 20px;
+}
+/*.top img{
+	height: 30px;
+	width: 30px;
+	float: right;
+	margin: 10px;
+	padding-right: 120px;
+}*/
+h3{
+	display: inline;
+	color: grey;
+	float: left;
+	margin-top: -3px;
+}
+h4{
+	float: left;
+	margin-left: 50px;
+}
+
+img { transition: all .2s ease-in-out; }
+img:hover { transform: scale(1.1); }
+
+@media only screen and (max-width: 500px){
+    body {
+        background-color: #e6ffff;
+    }
+    nav{
+	background-color: #ffffff;
+	margin-top: -17px;
+	/*margin-left: px;*/
+	width: 100%;
+
+
+}
+nav li{
+	list-style: none;
+	display: inline;
+	margin-top: -50px;
+	margin-right: -20px;
+}
+#homeicon{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 10px;
+	padding-right: 50px;
+	position: static;
+
+   
+}
+#instalogo{
+	width: 50px;
+	height: 30px;
+	padding-left: 100px;
+	position: static;
+}
+#profile{
+	width:30px;
+	height: 30px;
+	border-radius: 50px;
+	float: right;
+	position: static;
+}
+#aside{
+	margin: -250px;
+}
+#level1{
+	width: 100%;
+	/*float: right;*/
+	/*padding: 10px;*/
+	/*position: relative;*/
+	margin: 5px;
+
+}
+#pictures{
+	width:100%;
+	height: 440px;
+	border: none;
+	/*margin-right: 80px;*/
+	display: block;
+	/*padding: 10px;*/
+}
+.grid img{
+	height: 20px;
+	width: 20px;
+	float: right;
+	display: inline;
+	margin: 5px;
+	padding-right: 20px;
+}
+.message img{
+	height: 20px;
+	width: 20px;
+	float: right;
+	margin: 5px;
+	padding-right: 20px;
+	}
+	h4{
+	float: left;
+	margin-left: 50px;
+	margin-top: -1px;
+}
+}
+@media only screen and (min-width: 501px) and (max-width: 719px){
+    body {
+        background-color: red;
+    }
+      nav{
+	background-color: #ffffff;
+	margin-top: -17px;
+	/*margin-left: px;*/
+	width: 100%;
+
+
+}
+nav li{
+	list-style: none;
+	display: inline;
+	margin-top: -50px;
+	margin-right: -20px;
+}
+#homeicon{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+	padding-right: 50px;
+	position: static;
+
+   
+}
+#instalogo{
+	width: 60px;
+	height: 40px;
+	padding-left: 200px;
+	position: static;
+}
+#profile{
+	width:30px;
+	height: 40px;
+	border-radius: 50px;
+	float: right;
+	position: static;
+}
+#aside{
+	background-color: #ffffff;
+	width: 30%;
+	float: left;
+	margin-left: 20px;
+	margin-top: 50px;
+	padding: 20px;
+	display: inline;
+	position: static;
+	}
+	#propic{
+	width: 60px;	
+
+	border-radius: 50px;
+	margin-top: -50px;
+	margin-left: 40px
+}
+img { cursor: pointer; cursor: hand; }
+button{
+	background-color: #33ff33;
+	color: #ffffff;
+	width: 80px;
+	height: 40px;
+	border-radius: 25px;
+	border-style: none;
+	margin-left: 45px;
+	margin-bottom: 10px;
+}
+button:hover{
+	background-color: blue;
+}
+.followers{
+	border: 1px solid grey;
+	width: 49%;
+	height: 40px;
+	margin-bottom: -42px;
+	text-align: center;
+}
+.following{
+	border: 1px solid grey;
+	width: 49%;
+	float: right;
+	height: 40px;
+	text-align: center;
+}
+.girl{
+	border: 1px solid grey;
+	width: 100%;
+	height: 40px;
+	margin-top: 25px;
+	text-align: center;
+}
+.bottom{
+	width: 30%;
+	
+	margin: 2px;
+	padding-top: 10px;
+}
+.bottom2{
+	width: 60%;
+	float: right;
+	margin-top: -65px;
+	padding: 2px;
+}
+h3{
+	display: inline;
+	color: grey;
+	float: left;	
+}
+p{
+	float:right;
+
+
+	}
+#level1{
+	width: 55%;
+	float: right;
+	margin: 0 auto;
+	padding: 2px;
+	
+	
+	/*padding: 10px 5px;*/
+}
+#pictures{
+	width:80%;
+	height: 400px;
+	border: none;
+	padding: 10px;
+
+}
+.grid img{
+	height: 30px;
+	width: 30px;
+	float: right;
+	display: inline;
+	margin: 5px;
+	padding-right: 20px;
+}
+.message img{
+	height: 30px;
+	width: 30px;
+	float: right;
+	margin: 5px;
+	padding-right: 20px;
+	}
+h4{
+	float: left;
+	margin-left: 50px;
+}
+	
+}
+
+@media only screen and (min-width: 720px){
+    body {
+        background-color: #f8fafa;
+    }
+   
+}
