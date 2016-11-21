@@ -1,0 +1,140 @@
+body{
+	
+background-color:  #eeeedd;
+	
+}
+nav{
+	background-color:;
+	margin: 5px;
+}
+nav span{
+font-family: cursive;
+font-size: 15px;
+font-weight: bold;
+}
+
+nav>a{
+	float: right;
+	padding: 5px;
+
+}
+
+ nav a:active{
+	padding: 2px;
+	border-bottom: 2px solid red;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#top{
+	background-image: url("../../img/skyscrapper.jpeg");
+	height: 400px;
+	opacity: 0.9;
+	background-size: cover;
+	margin: 10px;
+}
+.left{
+	width: 50%;
+	font-size: 30px;
+	padding: 10px;
+	color: red;
+}
+.left a{
+	border: 1px solid red;
+	background-color: red;
+	color: white;
+	text-align: left;
+	
+}
+.right{
+	width: 50%;
+	float: right;
+	display: inline;
+	margin-top:-150px;
+}
+#middle{
+	background-color:  #ffb3b3;
+
+}
+.one{
+	text-align: center;
+	margin: 5px;
+}
+.two{
+	width: 22%;
+	padding: 3px;
+	margin-top: -5px;
+}
+.three{
+	width: 22%;
+	float: right;
+	padding: 3px;
+}
+.four{
+	width: 22%;
+	float: right;
+	padding: 3px;
+}
+.five{
+	width:22%;
+	float: right;
+	padding: 3px;
+}
+#middle a{
+	text-decoration: none;
+	color: black;
+}
+#middle a:hover{
+	color: white;
+	border: 2px solid red;
+	background-color: red;
+}
+.bottom{
+	margin: 10px;
+	background-color: red;
+}
+.list{
+	width: 30%;
+	margin: 5px;
+	display: inline;
+	float: right;
+	padding: 3px;
+}
+.list li{
+	list-style: none;
+}
+.list a{
+	text-decoration: none;
+	color: black
+	/*border:1px solid black;
+	border-width:80px;*/
+}
+.list a:hover{
+	color: white;
+	border: 2px solid red;
+	background-color: red;
+}
+.text{
+	width: 30%;
+	float: right;
+	display: inline;
+	padding: 3px;s
+	text-align: left;
+}
+.last{
+	width: 30%;
+	float: right;
+	display: inline;
+	margin-left:80px;
+}
+
+li a{
+	border: 1px hidden black;
+}
+ul li{
+	list-style: none;
+}
+/*#main{
+	background-color: red;
+}*/
