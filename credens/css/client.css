@@ -28,7 +28,7 @@ a{
 	color: black;
 }
 #top{
-	background-image: url("../../img/skyscrapper.jpeg");
+	background-image: url("img/skyscrapper.jpeg");
 	height: 400px;
 	opacity: 0.9;
 	background-size: cover;
