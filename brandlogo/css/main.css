@@ -1,0 +1,64 @@
+.gly{
+	padding: 5px;
+	margin-top: -20px;
+}
+strong{
+	color: red;
+	font-size: 20PX;
+}
+.head button{
+	padding: 5px;
+}
+.head a{
+	padding: 5px;
+}
+body{
+	background-color:  #ebebe0;
+}
+.jumbotron{
+	background-color: #80ff80;
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+	height: 480px;
+	margin-top: -50px;
+}
+h1{
+	color: red;
+	text-align: center;
+	margin: 10px;
+}
+.btn-group{
+	border-radius: 10px;
+	margin-top: 50px;
+}
+.people{
+	background-color:;
+}
+.categories{
+	background-color: #fff;
+}
+footer{
+	height: 50px;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
